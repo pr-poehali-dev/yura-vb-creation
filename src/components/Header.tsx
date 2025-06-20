@@ -48,10 +48,12 @@ const Header = () => {
             <Button variant="ghost" size="icon" className="relative">
               <Icon name="ShoppingBag" size={20} />
               <span className="absolute -top-1 -right-1 bg-primary text-primary-foreground text-xs rounded-full w-5 h-5 flex items-center justify-center">
-                2
+                3
               </span>
             </Button>
-            <Button className="hidden md:block font-opensans">Войти</Button>
+            <Button variant="ghost" size="icon">
+              <Icon name="User" size={20} />
+            </Button>
           </div>
         </div>
       </div>
